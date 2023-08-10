@@ -1,0 +1,11 @@
+Description:
+    Stubs out a new service. Pass the service name, either
+        CamelCased or under_scored, and an optional list of tis method as agruments
+        To create a service within a module, just add --module Name
+        This generated a serice class in app/services.
+
+Example:
+    bin/rails generate service MailerService send receive --module MailerModule
+
+    This will create:
+        app/service/mailer_module/mailer_service.rb
